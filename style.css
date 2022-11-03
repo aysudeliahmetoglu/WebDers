@@ -12,7 +12,7 @@ h1{
     display: flex;
     background-color: purple;
     flex-direction: row;
-    align-items: flex-start;
+
 }
 .blogs{
     padding: 20px;
@@ -22,15 +22,28 @@ h1{
 .blog1{
     background-color: #2ecc71;
     flex: 1;
+    margin-right: 20px;
+    
     /* order: 2; */
 }
 .blog2{
     background-color: #f1c40f;
     flex: 2;
+    margin-right: 20px;
+    
+
     /* order: 1; */
 }
 .blog3{
     background-color: #3498db;
     flex: 1;
+    margin: 20;
+
     /* order: 3; */
+}
+@media (max-width:760px){
+         blogs{
+
+            flex-direction: ;
+  }
 }
